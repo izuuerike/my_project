@@ -1,0 +1,18 @@
+{
+    "name": "izuu/my_project",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Izuu\\MyProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Izuu Erike",
+            "email": "zubyerike@gmail.com"
+        }
+    ]
+}
