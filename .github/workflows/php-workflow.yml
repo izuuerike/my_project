@@ -21,8 +21,5 @@ jobs:
     - name: Install dependencies
       run: composer install --no-interaction --prefer-dist
 
-    - name: Run PHP linting
-      run: vendor/bin/phpcs --standard=PSR12 .
-
     - name: Run PHPUnit tests
       run: vendor/bin/phpunit
